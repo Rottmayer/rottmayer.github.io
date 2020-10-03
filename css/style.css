@@ -1,0 +1,121 @@
+.top-strip {
+    background:#000;
+    padding:1em;
+}
+
+.header{
+    padding:4em 0;
+    margin: 12px 120px 12px 120px;
+}
+
+.clearfix {
+    display: inline;
+}
+
+.clearfix-photo {
+    padding-top: 12px;
+    position: relative;
+    display: inline-grid;
+    float: left;
+    border-radius: 120px;
+
+    height: 120px;
+}
+
+.name {
+    margin-top: 46px;
+    display: inline-grid;
+    position: absolute;
+    font-style: italic;
+    padding-right: 43px;
+
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.name:hover {
+    font-size: 38px;
+    color: rgba(31,31,31,1);
+
+}
+
+body {
+    margin: 0;
+    background-image: url("/img/bg.jpg");
+}
+
+.nav {
+    margin-top: 84px;
+    margin-right: 8px;
+    float: right;
+    height: 35px;
+    margin-bottom: 60px;
+}
+
+.line-top {
+    width: 100%;
+    background-color: gray;
+    height: 0.2px;
+}
+
+.line-content {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline;
+}
+
+.line-img {
+    height: 40px;
+    margin-right: 8px;
+    position: relative;
+}
+
+
+.line-text {
+    display: inline-grid;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+
+    font-family: 'Bangers', cursive;
+    margin-right: 80px;
+}
+
+@keyframes name {
+    0% {
+
+    }
+    100% {
+
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.line-aline {
+    display: inline-grid;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    letter-spacing: 1.2px;
+
+    font-family: 'Bangers', cursive;
+    margin-right: 25px;
+}
+
+.text {
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.fddf {
+    margin-top: 12px;
+}
